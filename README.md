@@ -1,0 +1,1 @@
+# hexgonal java boilerplate
