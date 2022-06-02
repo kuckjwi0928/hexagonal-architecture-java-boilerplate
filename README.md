@@ -1,1 +1,1 @@
-# hexgonal java boilerplate
+# hexagonal java boilerplate
