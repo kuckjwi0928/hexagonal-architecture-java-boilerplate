@@ -36,7 +36,6 @@ public class BookRepositoryAdapter implements BookQueryPort, BookCommandPort {
   @Override
   public Book addBook(Book book) {
     BookJpaEntity bookJpaEntity = this.bookDataJpaRepository.save(bookMapper.mapToEntity(book));
-    System.out.println(bookJpaEntity.getId());
     return bookMapper.mapToDomain(bookJpaEntity);
   }
 }
